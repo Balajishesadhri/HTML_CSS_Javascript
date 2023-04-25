@@ -1,0 +1,56 @@
+html{
+    background-color: black;
+}
+#box{
+    background-color: black;
+    width: 300px;
+    border: 1px solid blue;
+    padding: 0px 50px 50px 50px;
+    margin: 75px 0px 0px 500px ;
+    height: 400px;
+   box-shadow: 0px 0px 50px rgb(25, 166, 212);
+  border: none;
+  
+}
+#name{
+  
+    
+    outline: none;
+    border: none;
+   background:transparent;
+   border-bottom: 1px solid rgb(12, 127, 241);
+  
+}
+#Reg{
+    color: rgb(0, 89, 255);
+   text-align: center;
+   
+    padding: 30px 0px 30px 0px;
+    margin: 0px 0px 0px 20px ;
+   
+   
+}
+#hr{
+    color: rgb(0, 89, 255);
+}
+
+
+
+input{
+  
+    color: rgb(243, 45, 10);
+    
+}
+label{
+    margin: 20px 20px 20px 0px;
+    color: rgb(6, 161, 238)
+  
+}
+button{
+    background-color: aqua;
+    height: 10%;
+    width: 100%;
+    cursor: pointer;
+    margin: 50px 0px 0px 0px;
+}
+
