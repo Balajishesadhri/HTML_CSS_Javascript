@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<Html><title>Student</title>
+  <link rel = "Stylesheet" href="Student.css">
+    </head>
+    <body>
+      <div id="button">
+        <button type="button" style="width: 250px ;">Retriving Presonal Data</button>
+             </div>
+      <div id="IDnum">
+        <label for="idt">Id Number:</label>
+
+<input type="text" id="idt" name="idt" autofocus
+       minlength="4" maxlength="10" size="7">
+
+       <select name="idn" id="idn">
+         <option value="UNI">UNI</option>
+         <option value="FIN">FIN</option>
+         <option value="PPN">PPN</option>
+         <option value="XIN">XIN</option>
+       </select> 
+      </div>
+      
+      <br>
+      <div id="name">
+
+        <label for="name">Name:</label>
+
+        <input type="text" id="Name" name="Name" 
+               minlength="4" maxlength="10" size="30">
+      </div>
+      <br>
+      <div id = "Gen">
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Gender" name="Gender" value="Male">Male
+        <input type="radio" id="Gender" name="Gender" value="Female">Female
+      </div>
+      <div id = Relationship>
+      <label for="Rel">Relationship to:</label>
+      <select name="Rel" id="Rel" style="width: 250px;">
+         <option value="Husband/Wife">Husband/Wife</option>
+         <option value="Son/Daughter">Son/Daughter</option>
+         <option value="Brother/Sister">Brother/Sister</option>
+         <option value="Father/mother">Father/mother</option>
+       </select> 
+      </div>
+      <br>
+      <div id="Citizen">
+        <label for="CitizenShip">CitizenShip:</label>
+        <select name="CitizenShip" id="CitizenShip" style="width: 200px;">
+          <option value="Singapore Citizen">Singapore Citizen</option>
+          <option value="Singapore Permanent Resident">Singapore Permanent Resident</option>
+          <option value="Non-citizen">Non-citizen</option>
+         
+        </select>
+      </div>
+      <div id =" DOB">
+        <label for="DOB">Date of Birth:</label>
+        <input type="text" id="Dob" name="Dob"
+               minlength="10" maxlength="10" size="20">
+               <label for="DOB"><b>(DD/MM/YYYY)</b></label>
+
+      </div >
+      <br><br>
+      <label for="Sentence"><b>Appicable for occupier who is a non-ciziten with >=6 Months Visit pass</b></label>
+<div id="card">
+  <label for="Cardtype">Card Type :</label>
+  <select name="Cardtype" id="Cardtype" style="width: 200px;">
+     <option value="Social Visit Pass">Social Visit Pass</option>
+     <option value="Work permit">Work permit</option>
+     <option value="Empolyment Pass">Empolyment Pass</option>
+     <option value="Dependent pass">Dependent pass</option>
+     <option value="Student Pas">Student Pass</option>
+   </select>
+
+</div>
+<br>
+<div id ="Exp">
+  <label for="Expire">Expire Date :</label>
+  <input type="text" id="Expire" name="Expire"
+         minlength="10" maxlength="10" size="20" placeholder="DD/MM/YYYY">
+       
+
+</div >
+<div id="DOI">
+   <label for="Doi">Date of Issues:</label>
+  <input type="text" id="Doi" name="Doi" placeholder="DD/MM/YYYY"
+         minlength="10" maxlength="10" size="20">
+         </div>
+     
+
+    </body>
+</Html>
+
+
+
+
